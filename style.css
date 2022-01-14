@@ -10,7 +10,7 @@ body{
     display: inline-flex;
 }
 /* ------------
-     my first log css
+     my first bog css
 ----------- */
 .first-blog{
     display: flex;
@@ -42,4 +42,32 @@ body{
     text-decoration: none;
     color: white;
 
+}
+.scound-blog{
+    display: flex;
+    grid-column-gap: 25px;
+    justify-content: center;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px 200px;
+}
+.scound-heading{
+    font-size: 20px;
+    
+}
+.images-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    margin: 40px;
+}
+.fas.fa-star{
+    color: #FB8200;
+    width: 11.07px;
+    height: 10.32px;
+}
+.fas.fa-star-half-alt{
+    color: #FB8200;
+    width: 11.07px;
+    height: 10.32px;
 }
