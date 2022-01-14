@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*----------- icon css------ */
+.head{
+    display: flex;
+    grid-column-gap: 20px;
+}
+.starting-icons{
+    display: inline-flex;
+}
+/* ------------
+     my first log css
+----------- */
+.first-blog{
+    display: flex;
+    padding: 30px;
+    grid-column-gap: 200px;
+    margin-left: 70px;
+}
+.first-box{
+    width: 400px;
+    height: 200px;
+}
+.heading{
+    font-size: 40px;
+}
+.scound-box img{
+    width: 440px;
+    height: 414px;
+    
+}
+.preebook{
+    font-size: 20px;
+    background-color:  #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 41px;
+    margin-top: 50px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+
+}
