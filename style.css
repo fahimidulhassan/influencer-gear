@@ -148,32 +148,35 @@ footer{
 }
 /* ----------------media query------------------------------ */
 /* -------mobile query-------- */
+
 @media only screen and (max-width: 688px) {
+    .starting-point{
+        flex-direction: column;
+    }
+    .starting-icons{
+        flex-direction: column;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .first-blog{
+        flex-direction: column;
+    
+    }
     .scound-box{
-        position: absolute;
-        width: 257px;
-        height: 257px;
-        left: 51px;
-        top: 81px;
-    }
-    .first-box{
-        position: absolute;
-        width: 404px;
-        height: 222px;
-        left: -22px;
-        top: 352px;
-    }
-    .scound-blog{
-        position: absolute;
-        width: 275.21px;
-        height: 61.46px;
-        left: 42.79px;
-        top: 624.5px;
+        margin: 100px 0;
     }
     .images-box{
-        display: none;
+        grid-template-columns: 1fr;
     }
     .fourth-blog{
-        display: none;
+        flex-direction: column;
+        width: 200px;
+        margin-left: 50px;
     }
+    footer{
+        margin-right: 400px;
+        padding-right: 400px;
+    }
+
 }
