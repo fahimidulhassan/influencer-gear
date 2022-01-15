@@ -2,12 +2,26 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /*----------- icon css------ */
+.starting-point{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+/* ---------main blogs--------- */
+.full-blog{
+    background-color: white;
+    margin: 20px;
+    border: 2px solid gainsboro;
+}
 .head{
     display: flex;
     grid-column-gap: 20px;
 }
 .starting-icons{
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 /* ------------
      my first bog css
@@ -38,11 +52,16 @@ body{
     border-radius: 41px;
     margin-top: 50px;
 }
+.fas.fa-arrow-right{
+    padding-left: 10px;
+}
 .link{
     text-decoration: none;
     color: white;
 
 }
+/* ---------------------
+               scound blog css---------------------- */
 .scound-blog{
     display: flex;
     grid-column-gap: 25px;
@@ -51,15 +70,26 @@ body{
     padding: 20px;
     margin: 20px 200px;
 }
-.scound-heading{
-    font-size: 20px;
-    
+/* -------------------
+              my third blog----------------------- */           
+#scound-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: -100px;
 }
+/* ----------------images boxes------------------------ */
 .images-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 40px;
-    margin: 40px;
+    margin: 100px;
+}
+.images-box{
+    padding-left: 90px;
+}
+.product{
+    padding: 20px;
 }
 .fas.fa-star{
     color: #FB8200;
@@ -70,4 +100,44 @@ body{
     color: #FB8200;
     width: 11.07px;
     height: 10.32px;
+}
+/* my -----------fourth blog----------- */
+.fourth-blog{
+    display: flex;
+    padding: 30px;
+    grid-column-gap: 200px;
+    margin-left: 70px;
+}
+.latest{
+    font-size: 20px;
+}
+.latest-products{
+    padding: 50px;
+}
+.latest-products img{
+    height: 350px;
+    width: 350px;
+}
+.scound-link{
+    text-decoration: none;
+    font-size: 20px;
+    background-color:  #E02C6D;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+footer{
+    background-color: rgb(4, 4, 23);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    
+}
+.fab{
+    grid-raw-gap: 20px;
 }
