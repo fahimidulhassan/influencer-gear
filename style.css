@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    position: absolute;
 }
 /*----------- icon css------ */
 .starting-point{
@@ -76,20 +77,23 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    margin-bottom: -100px;
+    margin-bottom: -40px;
 }
 /* ----------------images boxes------------------------ */
 .images-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 40px;
-    margin: 100px;
+    margin: 40px;
 }
 .images-box{
     padding-left: 90px;
 }
 .product{
     padding: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    margin: 10px;
 }
 .fas.fa-star{
     color: #FB8200;
@@ -123,8 +127,9 @@ body{
     font-size: 20px;
     background-color:  #E02C6D;
     color: white;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    margin-top: 50px;
 }
 footer{
     background-color: rgb(4, 4, 23);
@@ -140,4 +145,14 @@ footer{
 }
 .fab{
     grid-raw-gap: 20px;
+}
+/* ----------------media query------------------------------ */
+/* -------mobile query-------- */
+@media only screen and (max-width: 688px) {
+    .first-blog{
+        flex-direction: column;
+    }
+    .images-box{
+        display: none;
+    }
 }
