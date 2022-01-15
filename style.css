@@ -149,10 +149,31 @@ footer{
 /* ----------------media query------------------------------ */
 /* -------mobile query-------- */
 @media only screen and (max-width: 688px) {
-    .first-blog{
-        flex-direction: column;
+    .scound-box{
+        position: absolute;
+        width: 257px;
+        height: 257px;
+        left: 51px;
+        top: 81px;
+    }
+    .first-box{
+        position: absolute;
+        width: 404px;
+        height: 222px;
+        left: -22px;
+        top: 352px;
+    }
+    .scound-blog{
+        position: absolute;
+        width: 275.21px;
+        height: 61.46px;
+        left: 42.79px;
+        top: 624.5px;
     }
     .images-box{
+        display: none;
+    }
+    .fourth-blog{
         display: none;
     }
 }
