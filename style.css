@@ -180,3 +180,22 @@ footer{
     }
 
 }
+/* ----------------------ipad query----------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .starting-icons .head .first-blog{flex-direction: column;
+    }
+    .scound-box{
+        margin: 100px 0;
+    }
+    .images-box{
+        grid-template-columns: 1fr 1fr;
+    }
+    .fourth-blog{
+        flex-direction: column;
+        padding-right: 50px;
+    }
+    .fourth-blog p{
+        width: 500px;
+    }
+    
+}
